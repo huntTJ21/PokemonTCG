@@ -1,0 +1,573 @@
+{
+    "Pokemon" : {
+        "Base Set" :{
+            "Alakazam"  :
+            {
+                "Name"          : "Alakazam",
+                "Stage"         :  3,
+                "HP"            :  80,
+                "Type"          :  "Purple",
+                "Moves"         : [ "Confuse Ray" ],
+                "Power"         : "Damage Swap",
+                "PStage"        : "Kadabra",
+                "Weakness"      : "Purple",
+                "Retreat"       : { "White" : 3 },
+                "Description"   : {
+                    "Text"  : "Psi Pokemon",
+                    "Length":"4' 11\"",
+                    "Weight":"106 lbs.",
+                    "Quote" : "Its brain can outperform a seupercomputer. Its intelligence quotient is said to be 5000.  Lv. 42  #65"
+                },
+                "Card Number"   : 1,
+                "Rarity"        : "Rare"
+            },
+            "Blastoise" :
+            {
+                "Name"          : "Blastoise",
+                "Stage"         :  3,
+                "HP"            :  100,
+                "Type"          :  "Blue",
+                "Moves"         : [ "Hydro Pump" ],
+                "Power"         : "Rain Dance",
+                "PStage"        : "Wartortle",
+                "Weakness"      : "Yellow",
+                "Retreat"       : { "White" : 3 },
+                "Description"   : { 
+                    "Text"  : "Shellfish Pokemon.",
+                    "Length": "5' 3\"",
+                    "Weight": "189 lbs.",
+                    "Quote"         :"A brutal Pokemon with pressurized water jets on its shell. They are used for high speed tackles.  LV. 52  #9"
+                },
+                "Card Number"   : 2,
+                "Rarity"        : "Rare"
+            },
+            "Chansey" :
+            {
+                "Name"          : "Chansey",
+                "Stage"         :  1,
+                "HP"            :  120,
+                "Type"          :  "White",
+                "Moves"         : [ "Scrunch", "Double-edge" ],
+                "Weakness"      : "Brown",
+                "Resistance"    : { "Purple" : -30 },
+                "Retreat"       : { "White" : 1},
+                "Description"   : { 
+                    "Text"      : "Egg Pokemon",
+                    "Length"    : "3' 7\"",
+                    "Weight"    : "76 lbs.",
+                    "Quote"     : "A rare and elusive Pokemon that is said to bring happiness to those who manage to catch it.  LV. 55  #113"
+                },
+                "Card Number"   : 3,
+                "Rarity"        : "Rare"
+            },
+            "Charizard" :
+            {
+                "Name"          : "Charizard",
+                "Stage"         :  3,
+                "HP"            :  120,
+                "Type"          :  "Red",
+                "Moves"         : [ "Fire Spin" ],
+                "Power"         : "Energy Burn",
+                "PStage"        : "Charmeleon",
+                "Weakness"      : "Blue",
+                "Resistance"    : { "Brown" : -30 },
+                "Retreat"       : { "White" : 3 },
+                "Description"   : { 
+                    "Text"      : "Flame Pokemon",
+                    "Length"    : "5' 7\"",
+                    "Weight"    : "200 lbs.",
+                    "Quote"     : "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.  LV. 76  #6"
+                },
+                "Card Number"   : 4,
+                "Rarity"        : "Rare"
+            },
+            "Clefairy" :
+            {
+                "Name"          : "Clefairy",
+                "Stage"         :  1,
+                "HP"            :  40,
+                "Type"          :  "White",
+                "Moves"         : [ "Sing", "Metronome" ],
+                "Weakness"      : "Brown",
+                "Resistance"    : { "Purple" : -30 },
+                "Retreat"       : { "White" : 1 },
+                "Description"   : { 
+                    "Text"      : "Fairy Pokemon",
+                    "Length"    : "2' 0\"",
+                    "Weight"    : "17 lbs.",
+                    "Quote"     : "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.  LV. 14  #35"
+                },
+                "Card Number"   : 5,
+                "Rarity"        : "Rare"
+            },
+            "Gyarados" :
+            {
+                "Name"          : "Gyarados",
+                "Stage"         :  2,
+                "HP"            :  100,
+                "Type"          :  "Blue",
+                "Moves"         : [ "Dragon Rage", "Bubblebeam" ],
+                "PStage"        : "Magikarp",
+                "Weakness"      : "Green",
+                "Resistance"    : { "Brown" : -30 },
+                "Retreat"       : { "White" : 3},
+                "Description"   : { 
+                    "Text"      : "Atrocious Pokemon",
+                    "Length"    : "21' 4\"",
+                    "Weight"    : "518 lbs.",
+                    "Quote"     : "Rarely seen in the wild. Huge and vicious. It is capable of destroying entire cities in a rage.  LV. 41  #130"
+                },
+                "Card Number"   : 6,
+                "Rarity"        : "Rare"
+            },
+            "Hitmonchan" :
+            {
+                "Name"          : "Hitmonchan",
+                "Stage"         :  1,
+                "HP"            :  70,
+                "Type"          :  "Brown",
+                "Moves"         : [ "Jab", "Special Punch" ],
+                "Weakness"      : "Purple",
+                "Retreat"       : { "White" : 2 },
+                "Description"   : { 
+                    "Text"      : "Punching Pokemon",
+                    "Length"    : "4' 7\"",
+                    "Weight"    : "111 lbs.",
+                    "Quote"     : "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.  LV. 33  #107"
+                },
+                "Card Number"   : 7,
+                "Rarity"        : "Rare"
+            },
+            "Machamp" : 
+            {
+                "Name"          : "Machamp",
+                "Stage"         :  3,
+                "HP"            :  100,
+                "Type"          :  "Brown",
+                "Moves"         : [ "Seismic Toss" ],
+                "Power"         : "Strikes Back",
+                "PStage"        : "Machoke",
+                "Weakness"      : "Purple",
+                "Retreat"       : { "White" : 3 },
+                "Description"   : { 
+                    "Text"      : "Superpower Pokemon",
+                    "Length"    : "5' 3\"",
+                    "Weight"    : "287 lbs.",
+                    "Quote"     : "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon  LV. 67  #68"
+                },
+                "Card Number"   : 8,
+                "Rarity"        : "Rare"
+            },
+            "Magneton" :
+            {
+                "Name"          : "Magneton",
+                "Stage"         :  2,
+                "HP"            :  60,
+                "Type"          :  "Yellow",
+                "Moves"         : [ "Thunder Wave", "Selfdestruct" ],
+                "PStage"        : "Magnemite",
+                "Weakness"      : "Brown",
+                "Retreat"       : { "White" : 1 },
+                "Description"   : { 
+                    "Text"      : "Magnet Pokemon",
+                    "Length"    : "3' 3\"",
+                    "Weight"    : "132 lbs.",
+                    "Quote"     : "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.  LV. 28  #82"
+                },
+                "Card Number"   : 9,
+                "Rarity"        : "Rare"
+            },
+            "Mewtwo" : 
+            {
+                "Name"          : "Mewtwo",
+                "Stage"         :  1,
+                "HP"            :  60,
+                "Type"          :  "Purple",
+                "Moves"         : [ "Psychic", "Barrier" ],
+                "Weakness"      : "Purple",
+                "Retreat"       : { "White" : 3 },
+                "Description"   : { 
+                    "Text"      : "Genetic Pokemon",
+                    "Length"    : "6' 7\"",
+                    "Weight"    : "269 lbs.",
+                    "Quote"     : "A scientist created this Pokemon after years of horrific gene-splicing and DNA engineering experiments.  LV. 53  #150"
+                },
+                "Card Number"   : 10,
+                "Rarity"        : "Rare"
+            },
+            "Nidoking" :
+            {
+                "Name"          : "Nidoking",
+                "Stage"         :  3,
+                "HP"            :  90,
+                "Type"          :  "Green",
+                "Moves"         : [ "Thrash", "Toxic" ],
+                "PStage"        : "Nidorino",
+                "Weakness"      : "Purple",
+                "Retreat"       : { "White": 3 },
+                "Description"   : { 
+                    "Text"      : "Drill Pokemon",
+                    "Length"    : "4' 7\"",
+                    "Weight"    : "137 lbs.",
+                    "Quote"     : "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.  LV. 48  #34"
+                },
+                "Card Number"   : 11,
+                "Rarity"        : "Rare"
+            },
+            "Ninetails" :
+            {
+                "Name"          : "Ninetails",
+                "Stage"         :  2,
+                "HP"            :  80,
+                "Type"          :  "Red",
+                "Moves"         : [ "Lure", "Fire Blast" ],
+                "PStage"        : "Vulpix",
+                "Weakness"      : "Blue",
+                "Retreat"       : { "White": 1 },
+                "Description"   : { 
+                    "Text"      : "Fox Pokemon",
+                    "Length"    : "3' 7\"",
+                    "Weight"    : "44 lbs.",
+                    "Quote"     : "Very smart and very vengeful. Grabbing one of its many tails cpuld result in a 1,000 year curse.  LV. 32  #38"
+                },
+                "Card Number"   : 12,
+                "Rarity"        : "Rare"
+            },
+            "Poliwrath" :
+            {
+                "Name"          : "Poliwrath",
+                "Stage"         :  3,
+                "HP"            :  90,
+                "Type"          :  "Blue",
+                "Moves"         : [ "Water Gun", "Whirlpool" ],
+                "PStage"        : "Poliwhirl",
+                "Weakness"      : "Green",
+                "Retreat"       : { "White": 3 },
+                "Description"   : { 
+                    "Text"      : "Tadpole Pokemon",
+                    "Length"    : "4' 3\"",
+                    "Weight"    : "119 lbs.",
+                    "Quote"     : "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.  LV. 48  #62"
+                },
+                "Card Number"   : 13,
+                "Rarity"        : "Rare"
+            },
+            "Raichu" :
+            {
+                "Name"          : "Raichu",
+                "Stage"         :  2,
+                "HP"            :  80,
+                "Type"          :  "Yellow",
+                "Moves"         : [ "Agility", "Thunder" ],
+                "PStage"        : "Pikachu",
+                "Weakness"      : "Brown",
+                "Retreat"       : { "White": 1 },
+                "Description"   : { 
+                    "Text"      : "Mouse Pokemon",
+                    "Length"    : "2' 7\"",
+                    "Weight"    : "66 lbs.",
+                    "Quote"     : "Its long tail serves as a ground to protect itself from its own high voltage power.  LV. 40  #26"
+                },
+                "Card Number"   : 14,
+                "Rarity"        : "Rare"
+            },
+            "Venusaur" :
+            {
+                "Name"          : "Venusaur",
+                "Stage"         :  3,
+                "HP"            :  100,
+                "Type"          :  "Green",
+                "Moves"         : [ "Solarbeam" ],
+                "Power"         : "Energy Trans",
+                "PStage"        : "Ivysaur",
+                "Weakness"      : "Red",
+                "Retreat"       : { "White": 2 },
+                "Description"   : { 
+                    "Text"      : "Seed Pokemon",
+                    "Length"    : "6' 7\"",
+                    "Weight"    : "221 lbs.",
+                    "Quote"     : "This plant blooms wen it is absorbing solar energy. It stays on the move to seek sunlight.  LV. 67  #3"
+                },
+                "Card Number"   : 15,
+                "Rarity"        : "Rare"
+            },
+            "Zapdos" :
+            {
+                "Name"          : "Zapdos",
+                "Stage"         :  1,
+                "HP"            :  90,
+                "Type"          :  "Yellow",
+                "Moves"         : [ "Thunder", "Thunderbolt" ],
+                "Resistance"    : { "Brown": -30 },
+                "Retreat"       : { "White": 3 },
+                "Description"   : { 
+                    "Text"      : "Electric Pokemon",
+                    "Length"    : "5' 3\"",
+                    "Weight"    : "116 lbs.",
+                    "Quote"     : "A legendary bird Pokemon said to appear from clouds while wielding enormous lightning bolts.  LV. 64  #145"
+                },
+                "Card Number"   : 16,
+                "Rarity"        : "Rare"
+            },
+            "Beedrill"  :
+            {
+                "Name"          : "Beedrill",
+                "Stage"         :  3,
+                "HP"            :  80,
+                "Type"          :  "Green",
+                "Moves"         : [ "Twineedle", "Poison Sting" ],
+                "PStage"        : "Kakuna",
+                "Weakness"      : "Red",
+                "Resistance"    : { "Brown": -30 },
+                "Retreat"       : { },
+                "Description"   : { 
+                    "Text"      : "Poison Bee Pokemon",
+                    "Length"    : "3' 3\"",
+                    "Weight"    : "65 lbs.",
+                    "Quote"     : "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.  LV. 32  #15"
+                },
+                "Card Number"   : 17,
+                "Rarity"        : "Rare"
+            },
+            "Dragonair" :
+            {
+                "Name"          : "Dragonair",
+                "Stage"         :  2,
+                "HP"            :  80,
+                "Type"          :  "White",
+                "Moves"         : [ "Slam", "Hyper Beam" ],
+                "PStage"        : "Dratini",
+                "Resistance"    : { "Purple": -30 },
+                "Retreat"       : { "White": 2 },
+                "Description"   : { 
+                    "Text"      : "Dragon Pokemon",
+                    "Length"    : "13' 1\"",
+                    "Weight"    : "36 lbs.",
+                    "Quote"     : "A mystical Pokemon that exudes a gentle aura. Has the ability to change climate conditions/  LV. 33  #148"
+                },
+                "Card Number"   : 18,
+                "Rarity"        : "Rare"
+            },
+            "Dugtrio" :
+            {
+                "Name"          : "Dugtrio",
+                "Stage"         :  2,
+                "HP"            :  70,
+                "Type"          :  "Brown",
+                "Moves"         : [ "Slash", "Earthquake" ],
+                "PStage"        : "Diglett",
+                "Weakness"      : "Green",
+                "Resistance"    : { "Yellow": 30 },
+                "Retreat"       : { "White": 30 },
+                "Description"   : { 
+                    "Text"      : "Mole Pokemon",
+                    "Length"    : "2' 4\"",
+                    "Weight"    : "73 lbs.",
+                    "Quote"     : "A team of Diglett triplets. It triggerss huge earthquakes by burrowing 60 miles underground.  LV. 36  #51"
+                },
+                "Card Number"   : 19,
+                "Rarity"        : "Rare"
+            },
+            "Electabuzz" :
+            {
+                "Name"          : "Electabuzz",
+                "Stage"         :  1,
+                "HP"            :  70,
+                "Type"          :  "Yellow",
+                "Moves"         : [ "Thundershock", "Thunderpunch" ],
+                "Weakness"      : "Brown",
+                "Retreat"       : { "White": 2 },
+                "Description"   : { 
+                    "Text"      : "Electric Pokemon",
+                    "Length"    : "3' 7\"",
+                    "Weight"    : "66 lbs.",
+                    "Quote"     : "Normally found near power plants, it can wander away and cause major blackouts in cities.  LV. 35  #125"
+                },
+                "Card Number"   : 20,
+                "Rarity"        : "Rare"
+            },
+            "Electrode" :
+            {
+                "Name"          : "Electrode",
+                "Stage"         :  2,
+                "HP"            :  80,
+                "Type"          :  "Yellow",
+                "Moves"         : [ "Electric Shock" ],
+                "Power"         : "Buzzap",
+                "Weakness"      : "Brown",
+                "Retreat"       : { "White": 1},
+                "Description"   : { 
+                    "Text"      : "Ball Pokemon",
+                    "Length"    : "3' 11\"",
+                    "Weight"    : "147 lbs.",
+                    "Quote"     : "It stores electrical energy under very high pressure. It oftern explodes with little or no provocation.  LV. 40  #101"
+                },
+                "Card Number"   : 21,
+                "Rarity"        : "Rare"
+            },
+            "Pidgeotto" :
+            {
+                "Name"          : "Pidgeotto",
+                "Stage"         :  2,
+                "HP"            :  60,
+                "Type"          :  "White",
+                "Moves"         : [ "Whirlwind" ],
+                "PStage"        : "Pidgey",
+                "Weakness"      : "Yellow",
+                "Resistance"    : { "Brown": -30 },
+                "Retreat"       : { "White": 1},
+                "Description"   : { 
+                    "Text"      : "Bird Pokemon",
+                    "Length"    : "3' 7\"",
+                    "Weight"    : "66 lbs.",
+                    "Quote"     : "Very protective of its sprawling territory, this Pokemon will fiercely peck at any intruder.  LV. 36  #17"
+                },
+                "Card Number"   : 22,
+                "Rarity"        : "Rare"
+            },
+            "Arcanine" :
+            {
+                "Name"          : "Arcanine",
+                "Stage"         :  1,
+                "HP"            :  100,
+                "Type"          :  "Red",
+                "Moves"         : [ "Flamethrower", "Take Down" ],
+                "PStage"        : "Growlithe",
+                "Weakness"      : "Blue",
+                "Retreat"       : { "White" : 3 },
+                "Description"   : { 
+                    "Text"      : "Legendary Pokemon",
+                    "Length"    : "6' 3\"",
+                    "Weight"    : "342 lbs.",
+                    "Quote"     : "A Pokemon that has been long admired for its beauty. It runs gracefully, as if on wings.  LV. 45  #59"
+                },
+                "Card Number"   : 23,
+                "Rarity"        : "Uncommon"
+            },
+            "Charmeleon" :
+            {
+                "Name"          : "Charmeleon",
+                "Stage"         :  3,
+                "HP"            :  80,
+                "Type"          :  "Red",
+                "Moves"         : [ "Slash", "Flamethrower" ],
+                "PStage"        : "Charmander",
+                "Weakness"      : "Blue",
+                "Retreat"       : { "White": 1 },
+                "Description"   : { 
+                    "Text"      : "Flame Pokemon",
+                    "Length"    : "3' 7\"",
+                    "Weight"    : "42 lbs.",
+                    "Quote"     : "When it swings its burning tail. it raises the temperature to unbearably high levels.  LV. 32  #5"
+                },
+                "Card Number"   : 24,
+                "Rarity"        : "Uncommon"
+            },
+            "Dewgong" :
+            {
+                "Name"          : "Dewgong",
+                "Stage"         :  2,
+                "HP"            :  80,
+                "Type"          :  "Blue",
+                "Moves"         : [ "Aurora Beam", "Ice Beam" ],
+                "PStage"         : "Seal",
+                "Weakness"      : "Yellow",
+                "Retreat"       : { "White": 3 },
+                "Description"   : { 
+                    "Text"      : "Sea Lion Pokemon",
+                    "Length"    : "5' 7\"",
+                    "Weight"    : "265 lbs.",
+                    "Quote"     : "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.  LV. 42  #87"
+                },
+                "Card Number"   : 25,
+                "Rarity"        : "Uncommon"
+            },
+            "Dratini" :
+            {
+                "Name"          : "Dratini",
+                "Stage"         :  1,
+                "HP"            :  40,
+                "Type"          :  "White",
+                "Moves"         : [ "Pound" ],
+                "Resistance"    : { "Purple": -30 },
+                "Retreat"       : { "White": 1 },
+                "Description"   : { 
+                    "Text"      : "Dragon Pokemon",
+                    "Length"    : "5' 11\"",
+                    "Weight"    : "7 lbs.",
+                    "Quote"     : "Long considered a mythical pokemon until recently, when a small colony was found living underwater.  LV. 10  #147"
+                },
+                "Card Number"   : 26,
+                "Rarity"        : "Uncommon"
+            },
+            "Farfetch'd" :
+            {
+                "Name"          : "Farfetch'd",
+                "Stage"         :  1,
+                "HP"            :  50,
+                "Type"          :  "White",
+                "Moves"         : [ "Leek Slap", "Pot Smash" ],
+                "Resistance"    : { "Brown": -30 },
+                "Weakness"      : "Yellow",
+                "Retreat"       : { "White": 1 },
+                "Description"   : { 
+                    "Text"      : "Wild Duck Pokemon",
+                    "Length"    : "2' 7\"",
+                    "Weight"    : "33 lbs.",
+                    "Quote"     : "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.  LV. 20  #83"
+                },
+                "Card Number"   : 27,
+                "Rarity"        : "Uncommon"
+            },
+            "Bulbasaur" : 
+            {
+                "Name"  : "Bulbasaur",
+                "Stage" :  1,
+                "HP"    :  40,
+                "Type"  :  "Green",
+                "Moves" : 
+                {
+                    "Leech Seed" : 
+                    {
+                        "Order"         : 0,
+                        "Description"   : "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
+                        "Damage"        : 20,
+                        "Cost"          : { "Green": 2 }
+                    }
+                },
+                "Weakness"      : "Red",
+                "Retreat"       : { "White" : 1 },
+                "Card Number"   : 44,
+                "Rarity"        : "Common"
+            },
+            "Template" :
+            {
+                "Name"          : "",
+                "Stage"         :  1,
+                "HP"            :  0,
+                "Type"          :  "",
+                "Moves"         : [],
+                "Power"         : "",
+                "Weakness"      : "",
+                "Retreat"       : { },
+                "Description"   : { 
+                    "Text"      : "",
+                    "Length"    : "'\"",
+                    "Weight"    : " lbs.",
+                    "Quote"     : ""
+                },
+                "Card Number"   : 0,
+                "Rarity"        : ""
+            }
+        }
+    },
+    "Trainers" :
+    {
+        "Clefairy Doll" :
+        {
+            "Name"              : "Clefairy Doll",
+            "Text"              : "",
+            "HP"                : 10
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Powers" : {
+        "Base Set" : {
+            "Damage Swap" : {
+                "Head"          : "As often as you like during your turn (before your attack),",
+                "Description"   : "you may move 1 damage counter from 1 of your Pokemon to another as long as you don't Knock Out that Pokemon.",
+                "Tail"          : "This power can't be used if Alakazam is Asleep, Confused, or Paralyzed."
+            },
+            "Rain Dance" : {
+                "Head"          : "As often as you like during your turn (before your attack),",
+                "Description"   : "you may attach 1 BLUE Energy card to 1 of your BLUE Pokemon. (This doesn't use up your 1 Energy card attachment for the turn.)",
+                "Tail"          : "This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+            },
+            "Energy Burn" : {
+                "Head"          : "As often as you like during your turn (before your attack),",
+                "Description"   : "you may turn all Energy attached to Charizard into RED Energy for the rest of the turn.",
+                "Tail"          : "This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+            }
+        }
+    }
+}
