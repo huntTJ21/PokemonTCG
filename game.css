@@ -1,0 +1,103 @@
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+/* Player 1 */
+#player1{
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 10% 80% 10%;
+    height: 40vh;
+}
+
+#player1 #Decks{
+    background-color:  blue;
+    grid-column: 1;
+    grid-row-start: span 2;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+#player1 #Decks #deck{
+    grid-row-start: 1;
+    border: 0;
+    background-image: url("https://cdn.bulbagarden.net/upload/1/17/Cardback.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+#player1 #Decks #discard{
+    grid-row-start: 2;
+}
+#player1 #hand{
+    background-color:  red;
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 100%;
+}
+#player1 #field{
+    background-color:  green;
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;
+}
+
+/* No Mans Land*/
+#NML{
+    grid-column-start: span 3;
+    grid-row-start: 2;
+    height: 15vh;
+}
+
+/* Player 2 */
+#player2{
+    grid-column: 1;
+    grid-row: 3;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 15% 70% 15%;
+    height: 40vh;
+}
+#player2 #Decks{
+    background-color:  blue;
+    grid-column: 3;
+    grid-row-start: span 2;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+#player2 #Decks #deck{
+    grid-row-start: 2;
+    border: 0;
+    background-image: url("https://cdn.bulbagarden.net/upload/1/17/Cardback.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+#player2 #Decks #discard{
+    grid-row-start: 1;
+}
+#player2 #hand{
+    background-color:  red;
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 100%;
+}
+#player2 #field{
+    background-color:  green;
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;
+}
